@@ -3,3 +3,9 @@
   margin: 0;
   padding: 0;
 }
+p{ 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: bolder;
+  color: red;
+}
