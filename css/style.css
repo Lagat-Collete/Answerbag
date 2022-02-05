@@ -12,3 +12,6 @@ p{
   font-weight: bolder;
   color: red;
 }
+#score-div{
+  display: none;
+}

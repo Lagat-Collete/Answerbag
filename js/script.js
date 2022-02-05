@@ -1,17 +1,21 @@
-
+let message = document.getElementById("message")
+function onClick(){
+  document.getElementById("answerbag").style.display = "none";
+  document.getElementById("score-div").style.display = "block";
+}
 
 function myButton(){
 var score = 0;
-var currentAnswer1 = document.answerbag.question1.value;
-var currentAnswer2 = document.answerbag.question2.value;
-var currentAnswer3 = document.answerbag.question3.value;
-var currentAnswer4 = document.answerbag.question4.value;
-var currentAnswer5 = document.answerbag.question5.value;
-var currentAnswer6 = document.answerbag.question6.value;
-var currentAnswer7 = document.answerbag.question7.value;
-var currentAnswer8 = document.answerbag.question8.value;
-var currentAnswer9 = document.answerbag.question9.value;
-var currentAnswer10 = document.answerbag.question10.value;
+var currentAnswer1 = document.answerbag.question1?.value;
+var currentAnswer2 = document.answerbag.question2?.value;
+var currentAnswer3 = document.answerbag.question3?.value;
+var currentAnswer4 = document.answerbag.question4?.value;
+var currentAnswer5 = document.answerbag.question5?.value;
+var currentAnswer6 = document.answerbag.question6?.value;
+var currentAnswer7 = document.answerbag.question7?.value;
+var currentAnswer8 = document.answerbag.question8?.value;
+var currentAnswer9 = document.answerbag.question9?.value;
+var currentAnswer10 = document.answerbag.question10?.value;
 
 if (currentAnswer1=="substr()"){score+=10};
 if (currentAnswer2=="document.myform.elements.length"){score+=10};
@@ -24,17 +28,18 @@ if (currentAnswer8=="Both A and B are true."){score+=10};
 if (currentAnswer9=="charAt()"){score+=10};
 if (currentAnswer10=="sum()"){score+=10};
 
-if (score=>80) {
-   score.textContent= "You have excellently passed."
+document.getElementById("score").textContent = score
 
-} else if (score=50-80){
-  score.textContent= " You have fairly passed."
+if (score > 79) {
+  message.textContent= "You have excellently passed."
+
+} else if (score > 49 && score < 80){
+  message.textContent= " You have fairly passed."
   
 } else {
-  score.textContent= "you have scored poorly and they need to retake the test."
+  message.textContent= "you have scored poorly and they need to retake the test."
 }
- document.write(score);
-
+onClick()
 }
 
 
