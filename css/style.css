@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 h1{
   display: inline;
   color: ;
@@ -14,11 +15,9 @@ p{
   color: blue;
   
 }
-#score-div{
-  display: none;
-}
 body{
   background-color: aqua;
+  padding: 50px;
 }
 #button{
   background-color: chartreuse;
@@ -27,5 +26,7 @@ body{
   position: relative;
   left: 400px;
   color: white;
-  font-size: large;
+  font-size: 30px;
+  border-radius: 20px;
+  padding: px;
 }
