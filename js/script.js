@@ -24,11 +24,14 @@ if (currentAnswer8=="Both A and B are true."){score+=10};
 if (currentAnswer9=="charAt()"){score+=10};
 if (currentAnswer10=="sum()"){score+=10};
 
-if (score>80)) {
+if (score=>80) {
    score.textContent= "You have excellently passed."
-   else if
-} else {
+
+} else if (score=50-80){
+  score.textContent= " You have fairly passed."
   
+} else(score<50) {
+  score.textContent= "you have scored poorly and they need to retake the test."
 }
  document.write(score);
 
