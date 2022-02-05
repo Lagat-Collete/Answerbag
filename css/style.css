@@ -4,14 +4,28 @@
   padding: 0;
 }
 h1{
-  color: red;
+  display: inline;
+  color: ;
 }
 p{ 
   font-family: 'Courier New', Courier, monospace;
   font-size: larger;
   font-weight: bolder;
-  color: red;
+  color: blue;
+  
 }
 #score-div{
   display: none;
+}
+body{
+  background-color: aqua;
+}
+#button{
+  background-color: chartreuse;
+  width: 150px;
+  height: 40px;
+  position: relative;
+  left: 400px;
+  color: white;
+  font-size: large;
 }
