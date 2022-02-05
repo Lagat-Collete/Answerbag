@@ -1,4 +1,3 @@
-let message = document.getElementById("message")
 function onClick(){
   document.getElementById("answerbag").style.display = "none";
   document.getElementById("score-div").style.display = "block";
@@ -29,7 +28,6 @@ if (currentAnswer9=="charAt()"){score+=10};
 if (currentAnswer10=="sum()"){score+=10};
 
 document.getElementById("score").textContent = score
-
 if (score > 79) {
   message.textContent= "You have excellently passed."
 
