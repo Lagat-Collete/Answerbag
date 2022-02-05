@@ -1,25 +1,33 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-h1{
-  display: inline;
-  color: ;
+.h1{
+  width: 500px;
+  margin: auto;
+  margin-bottom: 80px;
+  color: #fc17e9;
 }
-p{ 
+
+p {
   font-family: 'Courier New', Courier, monospace;
   font-size: larger;
   font-weight: bolder;
   color: blue;
-  
+
 }
-body{
+
+body {
   background-color: aqua;
   padding: 50px;
 }
-#button{
+#score-div {
+  display: none;
+}
+
+#button {
   background-color: chartreuse;
   width: 150px;
   height: 40px;
