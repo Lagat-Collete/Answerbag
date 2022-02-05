@@ -10,12 +10,12 @@ var currentAnswer8 = Answerbag.first.question8.value;
 var currentAnswer9 = Answerbag.first.question9.value;
 var currentAnswer10 = Answerbag.first.question10.value;
 var result= Answerbag.getElementById("text")
-if (currentAnswer1==){score+=10};
-if (currentAnswer2==){score+=10};
+if (currentAnswer1=="substr()"){score+=10};
+if (currentAnswer2=="document.myform.elements.length"){score+=10};
 if (currentAnswer3==){score+=10};
 if (currentAnswer4==){score+=10};
 if (currentAnswer5==){score+=10};
-if (currentAnswer6==){score+=10};
+if (currentAnswer6=="onmouseout"){score+=10};
 if (currentAnswer7=="onmousescroller"){score+=10};
 if (currentAnswer8=="Both A and B are true."){score+=10};
 if (currentAnswer9=="charAt()"){score+=10};
