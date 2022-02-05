@@ -1,11 +1,3 @@
-function myButton(){
-  document.write("hello");
-};
-
-
-
-
- 
 
 
 function myButton(){
@@ -20,7 +12,7 @@ var currentAnswer7 = document.answerbag.question7.value;
 var currentAnswer8 = document.answerbag.question8.value;
 var currentAnswer9 = document.answerbag.question9.value;
 var currentAnswer10 = document.answerbag.question10.value;
-console.log(currentAnswer1)
+var answer= document.getElementById("answer")
 if (currentAnswer1=="substr()"){score+=10};
 if (currentAnswer2=="document.myform.elements.length"){score+=10};
 if (currentAnswer3=="whether there is javascript or not"){score+=10};
@@ -31,14 +23,11 @@ if (currentAnswer7=="onmousescroller"){score+=10};
 if (currentAnswer8=="Both A and B are true."){score+=10};
 if (currentAnswer9=="charAt()"){score+=10};
 if (currentAnswer10=="sum()"){score+=10};
-document.write(score);
-
-
-
+answer.textContent= score;
 
 }
 
-var result= document.getElementById("text")
+
 
 
 
