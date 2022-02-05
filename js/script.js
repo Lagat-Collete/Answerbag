@@ -30,7 +30,7 @@ if (score=>80) {
 } else if (score=50-80){
   score.textContent= " You have fairly passed."
   
-} else(score<50) {
+} else {
   score.textContent= "you have scored poorly and they need to retake the test."
 }
  document.write(score);
