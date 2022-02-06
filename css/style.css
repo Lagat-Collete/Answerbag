@@ -7,8 +7,13 @@
 .h1{
   width: 500px;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   color: #fc17e9;
+}
+.date p{
+  color: black;
+  margin-bottom: 20px;
+  position: relative;;
 }
 
 p {
