@@ -14,8 +14,7 @@ This is for producing the landing page of a question and answers page of a schoo
 ## Description
   <p>This Web Application is my third project.It consist of a simple landing web page with a name Answerbag. It shows the name of the school,the unit and its questions.</p>
   <p>Here is the link to my design</p> 
-  https://www.figma.com/file/2BM1LsdTT4FyOaVYoxKKCi/Answerbag?node-id=2%3A4
-
+  https://www.figma.com/file/2BM1LsdTT4FyOaVYoxKKCi/Answerbag?node-id=8%3A3
   ## Installation.
 
   ### Requirements.
