@@ -2,13 +2,29 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+}
+.quiz{
+  text-align: center;
+  margin-top: 50px;
+}
+.form{
+  margin: 50px;
+  padding: 50px;
+  background-color: bisque;
+  border-radius: 15px;
+
+}
+.date .Q{
+  font-size: 16px;
+  color: #E44020;
 }
 
 .h1{
-  width: 500px;
+  font-size: 20px; 
   margin: auto;
   margin-bottom: 50px;
-  color: #fc17e9;
+  color: #E44020;
   text-align: center;
   position: relative;
 
@@ -16,10 +32,10 @@
 
 p {
   font-family: 'Courier New', Courier, monospace;
-  font-size: larger;
-  font-weight: bolder;
-  color: blue;
-
+  font-size: 14px;
+}
+h3{
+  font-size: 16px;
 }
 .date p{
   
@@ -30,23 +46,23 @@ p {
   bottom: 10px;
 }
 
-body {
-  background-color: aqua;
-  padding: 50px;
-}
+
 #score-div {
   display: none;
   
 }
 
 #button {
-  background-color: rgb(206, 211, 211);
+  background-color: grey;
   width: 200px;
   height: 60px;
   position: relative;
-  left: 400px;
-  color: black;
+  color: white;
   font-size: 50px;
   border-radius: 20px;
-  padding-top:5 px;
+  padding-bottom: 10px;
+
+}
+#message{
+  font-size: 20px;
 }
